@@ -15,4 +15,4 @@ COPY . .
 
 EXPOSE 5000
 # command to run on container start
-CMD ["python", "./app.py"]
+CMD ["python", "flaskwebapp/app.py"]
